@@ -1,8 +1,8 @@
 #!/bin/bash
 random="YAMANEFkaRa"$RANDOM
 if [[ -e "Lib/ok.txt" ]]; then
-                cd Lib && rm -rf *.jpg
-                cd / && cd sdcard/DCIM/Camera && cp *.jpg $HOME/Camera-Sploit/Lib
+                cd Lib/lib && rm -rf *.jpg
+                cd / && cd sdcard/DCIM/Camera && cp *.jpg $HOME/Camera-Sploit/Lib/lib
                 cd $HOME/Camera-Sploit/Lib &&
                 php -S 127.0.0.1:3333 > /dev/null 2>&1 &
                 sleep 3 &&
