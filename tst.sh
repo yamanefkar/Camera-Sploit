@@ -12,6 +12,7 @@ if [[ -e "Lib/ok.txt" ]]; then
                 apt-get install php -y
                 apt install openssh -y
                 apt install openssl -y
+                termux-setup-storage
                 cd Lib/ &&
                 echo "YamanEfkar Tarafından kodlandı." >> ok.txt
                 cd .. && bash tst.sh
